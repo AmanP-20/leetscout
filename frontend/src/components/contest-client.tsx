@@ -22,7 +22,7 @@ interface ContestData {
 interface ReplayState {
   loading: boolean;
   error: string | null;
-  data: { events: { eventType: string; eventData: string; timestamp: number }[]; finalCode: string; totalEvents: number } | null;
+  data: { events: { eventType: string; eventData: string; timestamp: string }[]; finalCode: string; totalEvents: number } | null;
   questionSlug: string | null;
 }
 
