@@ -51,11 +51,7 @@ export interface ContestDetail {
 export interface ReplayEvent {
   eventType: string;
   eventData: string;
-<<<<<<< HEAD
   timestamp: string;
-=======
-  timestamp:string;
->>>>>>> bdb2af8 (gg)
 }
 
 // ── API Responses ─────────────────────────────────────────────
