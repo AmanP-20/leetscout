@@ -20,7 +20,7 @@ const SPEEDS = [0.5, 1, 2, 5, 10, 20] as const;
 type Speed = (typeof SPEEDS)[number];
 
 type Change = { from: number; to?: number; insert?: string };
-type Frame = { code: string; cursor: number; timestamp: number };
+type Frame = { code: string; cursor: number; timestamp:string };
 
 // ── Apply ONE atomic change to a string ──────────────────────────
 function applyChange(code: string, ch: Change): string {

@@ -22,7 +22,11 @@ interface ContestData {
 interface ReplayState {
   loading: boolean;
   error: string | null;
+<<<<<<< HEAD
   data: { events: { eventType: string; eventData: string; timestamp: string }[]; finalCode: string; totalEvents: number } | null;
+=======
+  data: { events: { eventType: string; eventData: string; timestamp:string }[]; finalCode: string; totalEvents: number } | null;
+>>>>>>> bdb2af8 (gg)
   questionSlug: string | null;
 }
 
