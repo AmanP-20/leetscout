@@ -6,7 +6,7 @@ import ReplayPlayer from "@/components/replay-player";
 interface ReplayEvent {
   eventType: string;
   eventData: string;
-  timestamp: number;
+  timestamp: string;
 }
 
 interface ReplayResponse {
