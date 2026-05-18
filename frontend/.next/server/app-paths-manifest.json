@@ -1,0 +1,5 @@
+{
+  "/user/[username]/contest/[contestSlug]/page": "app/user/[username]/contest/[contestSlug]/page.js",
+  "/user/[username]/page": "app/user/[username]/page.js",
+  "/page": "app/page.js"
+}
